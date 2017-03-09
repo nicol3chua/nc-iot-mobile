@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT with Mobile
+  host: iot-nc
+  disk_quota: 1024M
+  services:
+  - IOT with Mobile-cloudantNoSQLDB
+  - IOT with Mobile-iotf-service
